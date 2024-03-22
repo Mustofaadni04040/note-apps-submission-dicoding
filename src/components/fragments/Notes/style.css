@@ -1,0 +1,30 @@
+.note__list {
+  width: 100%;
+  padding: 0 4%;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  z-index: -1;
+}
+.note__list-empty {
+  font-size: 1.5rem;
+  color: #0ea5e9;
+  margin: 30px;
+}
+@media screen and (max-width: 576px) {
+  .note__list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .note__list-empty {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 578px) and (max-width: 900px) {
+  .note__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .note__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

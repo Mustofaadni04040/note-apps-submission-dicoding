@@ -1,0 +1,67 @@
+form {
+  display: block;
+}
+form label {
+  color: #0ea5e9;
+  font-weight: 700;
+}
+form p {
+  display: flex;
+  justify-content: end;
+  color: #0ea5e9;
+}
+form input,
+form textarea.input__body {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid rgb(146, 146, 146);
+  border-radius: 5px;
+  background-color: transparent;
+  color: #0ea5e9;
+}
+form textarea.input__body {
+  min-height: 200px;
+}
+form input:focus,
+form textarea.input__body:focus {
+  outline: none;
+  border: 1px solid rgb(87, 87, 87);
+}
+form input::placeholder,
+form textarea.input__body::placeholder {
+  color: #0ea5e9;
+}
+.form__content-button {
+  display: flex;
+  justify-content: end;
+}
+.form__content-submit {
+  margin: 5px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+  background-color: #0ea5e9;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.form__content-close {
+  margin: 5px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .5s;
+  background-color: transparent;
+  color: rgb(100, 100, 100);
+  border: none;
+}
+.form__content-close:hover {
+  background-color: #cbd5e1;
+}
+.form__content-submit:hover {
+  background-color: #0284c7;
+}

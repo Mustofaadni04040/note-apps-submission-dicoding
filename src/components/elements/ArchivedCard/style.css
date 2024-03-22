@@ -1,0 +1,63 @@
+.archived__list-card {
+  position: relative;
+  min-width: 250px;
+  max-width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgb(3 0 71 / 9%) 0 1px 3px;
+  margin: 10px;
+  transition: 0.5s;
+}
+.archived__list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.archived__list-header h3 {
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #94a3b8;
+  font-weight: 600;
+}
+.archived__list-header p {
+  font-size: 0.8rem;
+  color: rgb(156, 156, 156);
+}
+.archived__list-header .right button .btn-close {
+  position: absolute;
+  top: -10px;
+  right: -25px;
+  width: 50px;
+  height: 20px;
+  font-size: 1.3rem;
+  color: #ef4444;
+}
+.archived__list-header .right button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn-rotate {
+  font-size: 1.3rem;
+  color: #0ea5e9;
+  transition: 0.3s;
+}
+.btn-rotate:hover {
+  color: #0284c7;
+}
+.archived__list-body {
+  font-size: 1rem;
+  color: rgb(92, 92, 92);
+  overflow-wrap: break-word;
+  color: #9c9c9c;
+}
+@media screen and (max-width: 576px) {
+  .archived__list-card {
+    margin: 10px auto;
+    min-width: 300px;
+  }
+}

@@ -1,0 +1,15 @@
+.header__section-logo .header__section-logo-button {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.header__section-logo-button .header__section-logo-button-color {
+  color: #0ea5e9;
+}
+@media screen and (max-width: 576px) {
+  .header__section-logo .header__section-logo-button {
+    font-size: 1.2rem;
+  }
+}
